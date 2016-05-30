@@ -31,7 +31,7 @@ class BearyChat
                 ]
             ]
         ];
-        $postString = json_encode(array_merge($this->data, $postData));
+        $postString = json_encode($postData);
         $ch = curl_init();
         curl_setopt($ch, CURLOPT_URL, $this->webhook);
         curl_setopt($ch, CURLOPT_POST, true);
