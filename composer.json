@@ -12,14 +12,12 @@
     "require": {
         "php": ">=5.5.9",
         "illuminate/support": "5.1.*|5.2.*"
+        "guzzlehttp/guzzle": "6.*"
     },
     "autoload": {
         "psr-4": {
             "Lvqingan\\BearychatLaravel\\": "src/"
         }
-    },
-    "suggest": {
-        "guzzlehttp/guzzle": "Required to connect hook url (~5.3|~6.0).",
     },
     "minimum-stability": "dev"
 }
