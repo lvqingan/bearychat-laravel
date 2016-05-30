@@ -1,0 +1,22 @@
+{
+    "name": "lvqingan/bearychat-laravel",
+    "description": "BearyChat Notifer for Laravel",
+    "keywords": ["bearychat", "laravel", "package"],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Andy.Lui",
+            "email": "lvqingan@gmail.com"
+        }
+    ],
+    "require": {
+        "php": ">=5.4.0",
+        "illuminate/support": "4.x|5.x"
+    },
+    "autoload": {
+        "psr-4": {
+            "Lvqingan\\BearychatLaravel\\": "src/"
+        }
+    },
+    "minimum-stability": "stable"
+}
