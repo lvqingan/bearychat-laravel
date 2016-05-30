@@ -33,7 +33,7 @@ class BearyChat
         ];
         $postString = json_encode($postData);
         $ch = curl_init();
-        curl_setopt($ch, CURLOPT_URL, $this->webhook);
+        curl_setopt($ch, CURLOPT_URL, $this->incomingHookUrl);
         curl_setopt($ch, CURLOPT_POST, true);
         curl_setopt($ch, CURLOPT_RETURNTRANSFER, true);
         curl_setopt($ch, CURLOPT_POSTFIELDS, $postString);
