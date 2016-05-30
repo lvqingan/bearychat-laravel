@@ -4,7 +4,7 @@ namespace Lvqingan\BearychatLaravel;
 
 use Illuminate\Support\ServiceProvider;
 
-class BearyLaravelServiceProvider extends ServiceProvider
+class BearychatLaravelServiceProvider extends ServiceProvider
 {
     /**
      * Indicates if loading of the provider is deferred.
