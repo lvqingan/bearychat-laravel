@@ -41,6 +41,6 @@ class BearyChat
             "Content-Type: application/json"
         ));
 
-        Curl\Util::execute($ch); 
+        curl_exec($ch); 
     }
 }
