@@ -21,7 +21,7 @@ class BearyChat
     public function sendMessage($title, $text)
     {
         $postData = [
-            'text' => (Carbon::now())->format('Y-m-d H:i:s'),
+            'text' => Carbon::now()->toDateTimeString(),
             'markdown' => false,
             'attachments' => [
                 [
