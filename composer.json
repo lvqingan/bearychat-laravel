@@ -18,5 +18,8 @@
             "Lvqingan\\BearychatLaravel\\": "src/"
         }
     },
+    "suggest": {
+        "guzzlehttp/guzzle": "Required to connect hook url (~5.3|~6.0).",
+    },
     "minimum-stability": "dev"
 }
